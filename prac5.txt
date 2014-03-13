@@ -1,0 +1,13 @@
+echo "<table border=2>";
+
+$b=1;
+for($i=1; $i<=10; $i++){
+
+echo "<tr style= \"background-color:".(($i%2==0)?"red":"yellow")."\">";
+
+for($a=1; $a<=10; $a++){
+echo "<td>".$b++."</td>";
+}
+echo "</tr>";
+}
+echo "<table>";
